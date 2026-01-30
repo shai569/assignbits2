@@ -27,7 +27,7 @@ Report generated: logsummary_2026-01-30.txt
 ## Command: ls
 ## Output: analyze.sh  log.txt  log_analyzer.sh  logsummary_2026-01-30.txt  project_documents  sample.log  sample_data.txt  sample_hard.txt  system_report.txt  testfile.txt  user_info.txt
 ## Explanation: I executed this command to list the files in my current directory after running the script. I observed that a new file named logsummary_2026-01-30.txt was created, confirming that the script's redirection logic for generating automated reports is functioning correctly.
-## Screenshot: Screenshot: ![Terminal output](q2_output5)
+## Screenshot: ![Terminal output](q2_output5)
 
 ## Command: cat logsummary_*.txt
 ## Output: Log Summary Report - Generated on Fri Jan 30 15:06:00 UTC 2026
