@@ -1,0 +1,6 @@
+test1@abc.com
+user2@web.com
+123@site.com
+test1@abc.com
+invalidemail
+wrong@domain.net
