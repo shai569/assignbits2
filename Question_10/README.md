@@ -1,8 +1,9 @@
 ## Question 10: Demonstrating signal handling
 ## Command: nano signal_handler.c
 ## Output: The text editor opnened.
-## Explanation: This opens the terminal text editor to write the C source code. The program uses the signal() function to let the LInux kernel know to not kill the program when it sees SIGTERM or SIGINT, instead run the handle_signal function. Two child processes are created. In Linux, fork() clones the parent. The return value is used to ensure only the children run the sleep and kill logic. Here, the children use the kill() function to " talk" to the parent process by sending specific signal IDs. The parent process uses exit(0) inside the handler to ensure the program closes only after it acknowledges it received the signal.
+## Explanation: This opens the terminal text editor to write the C source code. The program uses the signal() function to let the LInux kernel know to not kill the program when it sees SIGTERM or SIGINT, instead run the handle_signal function. Two child processes are created. In Linux, fork() clones the parent. The return value is used to ensure only the children run the sleep and kill logic. Here, the children use the kill() function to " talk" to the parent process by sending specific signal IDs. The parent process uses exit(0) inside the handler to ensure the program closes cleanly after 5 seconds SIGTERM, only after it acknowledges it received the signal.
 ## Screenshot: ![Terminal output](q10_output1.png)
+## Logic used: fork() for branching, kill() for communication, signal() for interruption, exit(0) for termination.
 
 ## Command: gcc signal_handler.c -o signal_handler
 ## Output: The program compiles succesfuly and the output is empty.
