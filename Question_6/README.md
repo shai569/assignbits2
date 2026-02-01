@@ -10,12 +10,12 @@ awk: This text-processing tool is used to calculate lengths. For the longest/sho
 ## Command: chmod +x metrics.sh
 ## Output: the terminal returns empty
 ## Explanation: Grants execute permissions to the script so it can run.
-## Screenshot: ![Terminal output](q6_output1.png)
+## Screenshot: ![Terminal output](q6_output2.png)
 
 ## Command: echo"Computing is the study of algorithmic processes, computational machines and informaton itself." > input.txt
 ## Output: the terminal returns empty
 ## Explanation: Creates the required input file.
-## Screenshot: ![Terminal output](q6_output1.png)
+## Screenshot: ![Terminal output](q6_output3.png)
 
 ## Command: ./metrics.sh
 ## Output: --- Word Metrics for input.txt ---
@@ -24,6 +24,6 @@ Shortest word: is
 Average word length: 6.83333
 Total unique words: 12
 ## Explanation: This runs the script to display the metrics
-## Screenshot: ![Terminal output](q6_output1.png)
+## Screenshot: ![Terminal output](q6_output4.png)
 
 
