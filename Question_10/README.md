@@ -11,7 +11,8 @@
 ## Screenshot: ![Terminal output](q10_output2.png)
 
 ## Command: ./signal_handler
-## Output: Parent process is running (PID: 396)...
+## Output: 
+Parent process is running (PID: 396)...
 Send SIGINT (Ctrl+C) or SIGTERM to see response.
 ^C
 
