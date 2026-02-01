@@ -29,7 +29,7 @@ cmp -s: Compare two files byte-by byte silently, It returns a "success" exit cod
 ## Command: chmod +x sync.sh
 ## Output: The terminal returns empty.
 ## Explanation: This grants permissions to the script so it can run.
-## Screenshot:
+## Screenshot: ![Terminal output](q5_output6.png)
 
 ## Command: ./sync.sh dirA dirB
 ## Output: --- Comparing dirA and dirB ---
@@ -43,4 +43,4 @@ file2.txt
 
 Checking contents of common files:
 ## Explanation: This runs the script.
-## Screenshot: ![Terminal output](q5_output6.png)
+## Screenshot: ![Terminal output](q5_output7.png)
